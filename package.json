@@ -1,0 +1,20 @@
+{
+	"name": "guaguas-amarillas-api",
+	"version": "1.0.0",
+	"main": "main.js",
+	"scripts": {
+		"build": "tsc -p tsconfig.json",
+		"serve": "node dist/main.js",
+		"start": "npm run build && npm run serve",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "skinnydevi",
+	"license": "ISC",
+	"description": "",
+	"devDependencies": {
+		"@types/node": "^22.13.5"
+	},
+	"dependencies": {
+		"typescript": "^5.7.3"
+	}
+}
